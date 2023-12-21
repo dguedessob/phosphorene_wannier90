@@ -1,3 +1,4 @@
+# Flags description in the wannier90.win input
 Defining the projection functions used to construct the initial guess matrix elements. Here, hidrogen-like s and p orbitals have been employed with an additional number of randomly-centred function-type Gaussian functions for the remaining projection functions.
 
 Begin Projections \
