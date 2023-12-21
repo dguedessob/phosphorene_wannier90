@@ -1,0 +1,26 @@
+Begin Projections
+random 
+P :  s,p
+End Projections
+
+num_iter = 1000
+
+kmesh_tol = 0.0001
+
+guiding_centres = true
+
+write_hr = T
+
+use_ws_distance=.false.
+
+bands_plot = T
+
+spinors = false
+
+begin kpoint_path ! along the following path
+A 0.5 0.5 0.0  Y 0.0 0.5 0.0
+Y 0.0 0.5 0.0  G 0.0 0.0 0.0
+G 0.0 0.0 0.0  X 0.5 0.0 0.0
+X 0.5 0.0 0.0  A 0.5 0.5 0.0
+A 0.5 0.5 0.0  G 0.0 0.0 0.0
+end kpoint_path
