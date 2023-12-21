@@ -27,9 +27,11 @@ Write the diagonal elements of the Hamiltonian in the Wannier basis in eV
 write_hr = T
 
 ___________________________________________________________________________________________________________________
-Control the interpolation of the k-space Hamiltonian. Here, we avoid to apply the translation condition to each WF by a basis vector of the super-lattice that minimises the distance between their centres. This condition is crucial for the good working of WantiBEXOS code throughout Bethe-Salpeter equation solution step.
+Control the interpolation of the k-space Hamiltonian. Here, we avoid to apply the translation condition to each WF by a basis vector of the super-lattice that minimises the distance between their centres.
 
 use_ws_distance=.false.
+
+This condition (as .false.) is crucial for the good working of WantiBEXOS code throughout Bethe-Salpeter equation solution step.
 
 ___________________________________________________________________________________________________________________
 Write the raw data for the interpolated band structure.
