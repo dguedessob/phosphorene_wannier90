@@ -30,14 +30,9 @@ spinors = false
 
 # Definition of the path in k-space for the bandstructure.
 begin kpoint_path ! along the following path
-
 A 0.5 0.5 0.0  Y 0.0 0.5 0.0
-
 Y 0.0 0.5 0.0  G 0.0 0.0 0.0
-
 G 0.0 0.0 0.0  X 0.5 0.0 0.0
-
 X 0.5 0.0 0.0  A 0.5 0.5 0.0
-
 A 0.5 0.5 0.0  G 0.0 0.0 0.0
 end kpoint_path
